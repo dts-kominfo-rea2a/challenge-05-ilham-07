@@ -7,16 +7,16 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "2. Nama"
 // ...
 const sorter = (arr, fnSort) => {
-  // Invoke function sorter
+  // invoke function sorter
   sortData = fnSort(arr);
 
-  // Make numbered list from sorted Data
+  // make numbered list from sorted Data
   let data = [];
   for (let i = 0; i < sortData.length; i++) {
-    // Data looping
+    // data Looping
     let loop = "";
-    loop += i + 1 + "- " + sortData[i];
-    // Add to array
+    loop += i + 1 + ". " + sortData[i];
+    // add to array
     data.push(loop);
   }
 
